@@ -11,8 +11,8 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Contract Scanner"/>
   <Description DefaultValue="Scan email content for contract-related language."/>
-  <IconUrl DefaultValue="%PUBLIC_BASE_URL%/addin/assets/placeholder_32.svg"/>
-  <HighResolutionIconUrl DefaultValue="%PUBLIC_BASE_URL%/addin/assets/placeholder_64.svg"/>
+  <IconUrl DefaultValue="%PUBLIC_BASE_URL%/addin/assets/placeholder_64.png"/>
+  <HighResolutionIconUrl DefaultValue="%PUBLIC_BASE_URL%/addin/assets/placeholder_128.png"/>
   
   <SupportUrl DefaultValue="%PUBLIC_BASE_URL%"/>
 
@@ -86,9 +86,9 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="%PUBLIC_BASE_URL%/addin/assets/placeholder_16.svg"/>
-        <bt:Image id="Icon.32x32" DefaultValue="%PUBLIC_BASE_URL%/addin/assets/placeholder_32.svg"/>
-        <bt:Image id="Icon.80x80" DefaultValue="%PUBLIC_BASE_URL%/addin/assets/placeholder_80.svg"/>
+        <bt:Image id="Icon.16x16" DefaultValue="%PUBLIC_BASE_URL%/addin/assets/placeholder_16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="%PUBLIC_BASE_URL%/addin/assets/placeholder_32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="%PUBLIC_BASE_URL%/addin/assets/placeholder_80.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="Taskpane.Url" DefaultValue="%PUBLIC_BASE_URL%/addin/taskpane.html"/>
