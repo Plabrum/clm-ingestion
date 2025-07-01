@@ -1,6 +1,9 @@
 Office.onReady(() => {
   document.getElementById("scan-button")?.addEventListener("click", () => {
     const item = Office.context.mailbox.item;
+    if (item === undefined) {
+      return;
+    }
     item.body.getAsync(Office.CoercionType.Text, (result) => {
       if (result.status === Office.AsyncResultStatus.Succeeded) {
         const emailData = {

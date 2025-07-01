@@ -1,5 +1,5 @@
 from litestar import Litestar, post
-from litestar.middleware.cors import CORSMiddleware
+from litestar.config.cors import CORSConfig
 from litestar.response import Response
 
 
@@ -18,5 +18,5 @@ async def classify_email(data: dict) -> Response:
 
 app = Litestar(
     route_handlers=[classify_email],
-    middleware=[CORSMiddleware(allow_origins=["*"])],
+    cors_config=CORSConfig(allow_origins=["*"]),  # Enable CORS for all origins
 )
